@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eseoghene Gift-Asisisi | Software Engineer</title>
+    <meta name="description" content="Software Engineering graduate from Nigeria building reliable backend systems with FastAPI and Python, and responsive web applications with React." />
+    <meta name="author" content="Eseoghene Gift-Asisisi" />
+    <meta name="keywords" content="Eseoghene Gift-Asisisi, Software Engineer, Backend Engineer, Full-Stack, FastAPI, Python, React, TypeScript, Delta State Nigeria" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Eseoghene Gift-Asisisi | Software Engineer" />
+    <meta property="og:description" content="Software Engineer building reliable backend systems and web apps with FastAPI, Python, Java, and React." />
+    <meta property="og:site_name" content="Eseoghene Gift-Asisisi Portfolio" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eseoghene Gift-Asisisi | Software Engineer" />
+    <meta name="twitter:description" content="Software Engineer building reliable backend systems and web apps with FastAPI, Python, Java, and React." />
+
+    <!-- Favicon: Clean 'E' monogram mark -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%237C6CFF'/><text x='16' y='23' font-size='20' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%23FFFFFF'>E</text></svg>" />
+
+    <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Theme Initialization Script (avoids FOUC) -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('portfolio_theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else if (savedTheme === 'dark' || (!savedTheme && systemDark) || !savedTheme) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
+    <!-- Schema.org Person JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eseoghene Gift-Asisisi",
+      "alternateName": "Eseoghene",
+      "jobTitle": "Software Engineer",
+      "description": "Software Engineering graduate from Nigeria building reliable backend systems with FastAPI and Python, and responsive web applications with React.",
+      "url": "https://github.com/giftstack-dev",
+      "email": "mailto:ese.dev13@gmail.com",
+      "telephone": "+2347060725593",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Delta State",
+        "addressCountry": "Nigeria"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Southern Delta University (SDU), Ozoro",
+        "location": "Delta State, Nigeria"
+      },
+      "sameAs": [
+        "https://github.com/giftstack-dev",
+        "https://www.linkedin.com/in/eseoghene-asisisi-99b378397/"
+      ],
+      "knowsAbout": [
+        "Software Engineering",
+        "FastAPI",
+        "Python",
+        "Java",
+        "React",
+        "TypeScript",
+        "Docker",
+        "CI/CD",
+        "REST APIs",
+        "Double-Entry Bookkeeping",
+        "PostgreSQL"
+      ]
+    }
+    </script>
+  </head>
+  <body class="selection:bg-[#7C6CFF]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
